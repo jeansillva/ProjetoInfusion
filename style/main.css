@@ -3,6 +3,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+img{
+    max-width: 100%;
+}
+
 .header{
     background: #fff;
     width: 100%;
@@ -56,6 +60,49 @@ body{
     color: #63c6ae;
 
 }
+
 .header__btnMenu{
     
+}
+
+.hero{
+    height: 80vh;
+    padding: 40px 20px;
+    text-align: center;
+    background-image: url(../img/01.jpg);
+    background-size: cover; /*Vai ocupar toda a área*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*Centraliza na vertical*/
+    align-items: center; /*Centraliza na horizontal*/
+}
+
+.hero__title{
+    background-color: #63c6ae;
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 30px 20px;
+    text-transform: uppercase;
+}
+
+.hero__text{
+    background-color: #242c2c;
+    margin: 5px 30px 35px;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.hero__btn{
+    border: 1px solid rgba(255, 255, 255, .3);
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    padding: 15px 25px;
+    display: inline-block; /*Permite que o botão fique com um tamanho menor, em conjunto com align-items da classe .hero*/
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
 }
