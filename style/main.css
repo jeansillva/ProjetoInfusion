@@ -65,17 +65,21 @@ img{
     
 }
 
-.hero{
+.hero {
     height: 80vh;
     padding: 40px 20px;
     text-align: center;
-    background-image: url(../img/01.jpg);
-    background-size: cover; /*Vai ocupar toda a área*/
+    background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat,
+                linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
+                url(../img/01.jpg);
+
+    background-size: 40px 40px, 40px 40px, cover;
     display: flex;
     flex-direction: column;
-    justify-content: center; /*Centraliza na vertical*/
-    align-items: center; /*Centraliza na horizontal*/
+    justify-content: center; /* Centraliza na vertical */
+    align-items: center; /* Centraliza na horizontal */
 }
+
 
 .hero__title{
     background-color: #63c6ae;
