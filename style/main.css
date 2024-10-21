@@ -126,6 +126,21 @@ img{
     
 }
 
+.people-cards__card:hover{
+    outline: 5px solid #63c6ae; /*Outline é mais apropriado por não alterar a área de conteúdo, o que não faz ele andar*/
+    outline-offset: -5px; /*Possui valores de ampliação ou redução*/
+}
+
+.people-cards__card:hover .people-cards__avatar img{
+    transform: translateY(-50%); /*Utilizar a % vai auxiliar na manutenção tornando não necessário alterar aqui caso o tamanho da imagem seja alterado*/
+}
+
+.people-cards__card:hover .people-cards__title,
+.people-cards__card:hover .people-cards__text{
+    color: #63c6ae;
+}
+
+
 .people-cards__image{
     width: 100%;
 }
@@ -146,6 +161,7 @@ img{
 .people-cards__title{
     color: #737c85;
     font-size: 21px;
+    font-weight: normal;
 
 }
 
