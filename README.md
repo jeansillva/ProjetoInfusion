@@ -21,24 +21,21 @@ Infusion é um projeto web que demonstra uma página de apresentação para um t
 
 ## 📂 Estrutura do Projeto
 
-Infusion/
-│
-├── index.html         # Estrutura principal do HTML
-├── style/
-│   ├── normalize.css  # Reset CSS para cross-browser
-│   └── main.css       # Estilos customizados para o site
-│
-├── img/               # Imagens usadas no projeto
-│   ├── c01.jpg
-│   ├── teamsprite_01.png
-│   └── ...            # Outras imagens
-│
-├── js/
-│   ├── menu.js        # Script para o menu de navegação
-│   └── main.js        # Script para sliders e interações
-│
-└── README.md          # Documento de apresentação do projeto
+## 📂 Estrutura do Projeto
 
+- **Infusion/**
+  - `index.html` - Estrutura principal do HTML
+  - **style/**
+    - `normalize.css` - Reset CSS para cross-browser
+    - `main.css` - Estilos customizados para o site
+  - **img/** - Imagens usadas no projeto
+    - `c01.jpg`
+    - `teamsprite_01.png`
+    - ... - Outras imagens
+  - **js/**
+    - `menu.js` - Script para o menu de navegação
+    - `main.js` - Script para sliders e interações
+  - `README.md` - Documento de apresentação do projeto
 
 ## 🚀 Funcionalidades Principais
 
